@@ -9,3 +9,5 @@ class User(BaseModel):
     surname: str
     email: EmailStr
     status: str  # Podrías usar Enum para 'active', 'inactive'
+
+
