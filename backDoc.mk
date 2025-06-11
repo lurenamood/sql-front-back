@@ -81,6 +81,14 @@ python -m venv env
 pip install fastapi uvicorn mysql-connector-python
 pip install "fastapi[standard]"
 uvicorn main:app --reload --> ACTIVAR Terminal PROYECTO
+Conexión SQLAlchemy con MySQL:
+pip install mysql-connector-python
+pip install pymysql
+
+Pydantic:
+pipenv graph --> para ver la carpeta donde está
+
+
 
 ----------------------------------------------------------------
 

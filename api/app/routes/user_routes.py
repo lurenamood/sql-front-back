@@ -23,6 +23,7 @@ def get_by_email(domain: str):
     return user_crud.get_users_by_email_domain(domain)
 
 
+
 @router.put("/update_state", status_code=status.HTTP_200_OK, tags=["Users"])
 def update_user(user: UserUpdate):
     return user_crud.update_user_fields(user)
